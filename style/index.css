@@ -1,0 +1,505 @@
+.clearfix {
+    clear: both !important;
+}
+
+.inner {
+    width: 1000px !important;
+
+    margin: 0 auto;
+}
+.nomargin {
+    margin: 0 !important;
+
+}
+
+/* 这是header区域开始 */
+.header {
+    height: 58px;
+    width: 100%;
+    background-color: #191D3A;
+}
+
+.header .inner-header .logo {
+    float: left;
+    width: 137px;
+    height: 48px;
+    padding-top: 10px;
+    padding-left: 20px;
+    margin-right: 67px;
+
+
+}
+
+.header .inner-header .logo h1 {
+    width: 157px;
+    height: 35px;
+    background: url(../images/images1/logo.png) no-repeat;
+
+}
+.header .inner-header .logo a{
+    cursor: pointer;
+}
+.inner-header .nav {
+    float: left;
+    width: 517px;
+    height: 58px;
+    margin-right: 10px;
+
+}
+
+.inner-header .nav ul {
+    list-style: none;
+}
+
+.inner-header .nav ul li {
+    width: 72.7px;
+    height: 58px;
+    border-right: 1px solid #252947;
+    float: left;
+    color: white;
+    font: 13px 'microsoft yahei';
+}
+
+.inner-header .nav ul li:nth-child(1) {
+    border-left: 1px solid #252947;
+    background-color: #252947;
+}
+
+.inner-header .nav ul li a {
+    display: block;
+    height: 58px;
+    line-height: 58px;
+    text-align: center;
+    color: #818496;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.inner-header .nav ul li:hover a{
+    background-color: #252947;
+    color: #e2e4ed;
+}
+
+.inner-header .joinus {
+    float: left;
+    padding-top: 12px;
+    margin-right: 89px;
+}
+
+.inner-header .joinus a {
+    display: block;
+    background: url(../images/images1/icons.png) no-repeat 0 -35px;
+    width: 100px;
+    height: 34px;
+    cursor: pointer;
+
+}
+
+.inner-header .joinus a:hover {
+    background: url(../images/images1/icons.png) no-repeat 0 -69px;
+}
+
+.inner-header .shift a {
+    color: #38b774;
+    float: left;
+    height: 58px;
+    font: 14px/58px 'microsoft yahei';
+    cursor: pointer;
+
+}
+
+.inner-header .shift .chinese {
+    margin-right: 10px;
+}
+
+.inner-header .shift .english {
+    color: #444858;
+}
+
+.inner-header .shift .english:hover {
+    color: #38b774;
+}
+
+/* 这是header区域结束 */
+
+/* 这是banner区域开始 */
+.banner {
+    width: 1920px;
+    height: 460px;
+    background: #67C8EB;
+    margin-bottom: 50px;
+    position: relative;
+    overflow: hidden;
+    margin: 0 auto;
+    margin-bottom: 50px;
+
+}
+.banner .move-box{
+    width: 10000px;
+    height: 460px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    cursor: pointer;
+
+}
+.banner .move-box ul li{
+ float: left;
+}
+.banner .page{
+    position: absolute;
+   bottom: 10px;
+    left: 50%;
+}
+.banner .page ul{
+    width: 120px;
+}
+.banner .page ul li{
+    float: left;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    margin-right: 10px;
+    background-color: #80DEBC;
+    cursor: pointer;
+}
+.white{
+    background-color: white !important;
+}
+.green{
+    background-color: green !important;
+}
+/* 这是banner区域结束 */
+/* 这是product区域开始 */
+.product {
+    height: 180px;
+    margin-bottom: 50px;
+    width: 1000px;
+   
+    position: relative;
+    overflow: hidden;
+}
+.product .move-box{
+    width: 5000px;
+    position: absolute;
+    top: 0;
+    left:0;
+}
+.product .move-box ul {
+    list-style: none;
+    float: left;
+
+}
+
+.product ul li {
+    float: left;
+    width: 218px;
+    height: 180px;
+    margin-right: 42.5px;
+
+
+}
+.product ul li:hover{
+    background-color: springgreen;
+    
+}
+.product ul li:hover h3{
+   color: white;
+
+}
+.product ul li:hover p{
+   color: white;
+
+}
+.product ul li:hover span{
+    display: inline-block;
+    background: url(../images/images1/jt2.png) no-repeat right center;
+    padding-right: 15px;
+}
+.product ul li .mj {
+    width: 218px;
+    height: 130px;
+    background: url(../images/images1/scmj.png)no-repeat;
+    margin-bottom: 15px;
+}
+
+.product ul li:nth-child(2) .mj {
+    background: url(../images/images1/scqp.png)no-repeat;
+}
+
+.product ul li:nth-child(3) .mj {
+    background: url(../images/images1/ermj.png)no-repeat;
+}
+
+.product ul li:nth-child(4) .mj {
+    background: url(../images/images1/cctgd.png)no-repeat;
+}
+
+
+.product ul li h3 {
+
+    color: #44487D;
+    text-align: center;
+    font: 14px 'microsoft yahei';
+}
+
+.product ul li p {
+    color: #38B774;
+    width: 218px;
+    font: 12px 'microsoft yahei';
+    text-align: center;
+
+
+}
+
+.product ul li p span {
+    display: inline-block;
+    background: url(../images/images1/JT.png)no-repeat right center;
+    padding-right: 15px;
+
+
+
+}
+
+/* 这是product区域结束 */
+/* 这是hd区域开始 */
+.hd {
+    height: 19px;
+    border-top: 1px solid #DBE1E7;
+}
+
+.hd ul {
+    width: 92px;
+    height: 11px;
+    margin: -7px auto;
+    background-color: white;
+    padding-left: 17px;
+  
+    box-sizing: border-box;
+   
+
+}
+
+.hd ul li {
+    border-radius: 50%;
+    width: 11px;
+    height: 11px;
+    float: left;
+    background-color: #b5c0cb;
+    margin-right: 13.9px;
+    text-indent: -999em;
+    cursor: pointer;
+
+}
+#nomar{
+    margin-right: 0;
+}
+/* .hd ul li:hover{
+    background-color: #33b972;
+} */
+
+/* 这是hd区域结束 */
+/* 这是newinfo区域开始 */
+.newsinfo {
+    width: 1680px;
+    height: 364px;
+    background: url(../images/images1/mountain.jpg)no-repeat;
+    margin: 0 auto;
+    padding-top: 15px;
+}
+
+
+
+.newsinfo .newsinfo-inner .new-newsinfo {
+    float: left;
+    width: 500px;
+    height: 310px;
+    background: url(../images/images1/bynewsbg.jpg) no-repeat;
+    position: relative;
+
+}
+.newsinfo  .newsinfo-inner .new-newsinfo .btn1{
+  
+    border-radius: 5px;
+    border: 1px solid #33b972;
+    font: 13px "microsoft yahei";
+    width: 64px;
+    height: 26px;
+    position: absolute;
+    top: 42px;
+    left: 230px;
+    cursor: pointer;
+    text-align: center;
+    color: #33b972;
+}
+.newsinfo  .newsinfo-inner .new-newsinfo .btn1:hover{
+  background-color:#33b972 ;
+  color: white;
+
+}
+
+
+.newsinfo  .newsinfo-inner ul{
+    list-style: none;
+}
+.newsinfo  .newsinfo-inner .new-newsinfo ul {
+   
+   margin-top: 122px;
+   margin-left: 20px;
+
+}
+
+.newsinfo  .newsinfo-inner .new-newsinfo ul li{
+   height: 46px;
+   width: 460px;
+   font: 13px/46px 'microsoft yahei';
+   color: #444866;
+   border-bottom: 1px solid #dbe1e7;
+   cursor: pointer;
+
+}
+.newsinfo  .newsinfo-inner .new-newsinfo ul li a:hover{
+    color: #33b972;
+}
+.newsinfo .newsinfo-inner .job-newsinfo {
+    float: left;
+    width: 500px;
+    height: 310px;
+    color: white;
+    background: url(../images/images1/byhrbg3.jpg) no-repeat;
+    position: relative;
+}
+
+
+.newsinfo .newsinfo-inner .job-newsinfo h1 {
+    font: 30px 'simsun';
+   
+    font-weight: bold;
+    position: absolute;
+    top: 40px;
+    left: 71px;
+
+}
+
+.newsinfo .newsinfo-inner .job-newsinfo span {
+    display: block;
+    position: absolute;
+    font: 12px 'microsoft yahei';
+    top: 74px;
+    left: 78px;
+
+}
+
+.newsinfo .newsinfo-inner .job-newsinfo p {
+    margin-top: 100px;
+    font: 14px 'microsoft yahei';
+    margin-left: 21px;
+
+}
+
+.newsinfo .newsinfo-inner .job-newsinfo ul {
+
+    margin-left: 21px;
+    width: 304px;
+    margin-top: 2px;
+
+}
+
+.newsinfo .newsinfo-inner .job-newsinfo ul li {
+    height: 39px;
+    font: 14px/39px 'microsoft yahei';
+    width: 304px;
+    border-bottom: 1px solid #67dea3;
+    cursor: pointer;
+}
+
+.newsinfo .newsinfo-inner .job-newsinfo .btn2 {
+    
+    border-radius: 5px;
+    border: 1px solid white;
+    font: 13px "microsoft yahei";
+    width: 64px;
+    height: 26px;
+    color: white;
+    position: absolute;
+    top: 41px;
+    left: 210px;
+    cursor: pointer;
+    text-align: center;
+
+
+
+}
+.newsinfo  .newsinfo-inner .job-newsinfo .btn2:hover{
+    color: #33b972;
+    background-color: white;
+  
+
+}
+
+
+/* 这是newinfo区域结束 */
+/* 这是footer区域结束 */
+.footer{
+ width: 100%;
+ height: 91px;
+ background-color: #191D3A;
+ 
+
+
+}
+.footer .footer-con{
+ height: 91px;
+ background-color: #191d3a;
+    color: #52617e;
+    font: 12px 'microsoft yahei';
+ 
+}
+.footer .footer-con .left-f ul{
+  list-style: none;
+}
+.footer .footer-con .left-f {
+    width: 113px;
+    height: 14px;
+    float: left;
+   margin-top: 39px;
+   margin-right: 169px;
+  
+
+}
+
+.footer .footer-con .left-f ul li{
+ float: left;
+ width:52px;
+ height: 14px;
+ 
+}
+.footer .footer-con .left-f ul li.map{
+   border-right: 1px solid #526e68;
+   margin-right: 4px;
+}
+.footer .footer-con .right-f{
+   float: left;
+  
+   width: 665px;
+   height: 14px;
+  
+   margin-top: 39px;
+}
+.footer .footer-con span{
+display: block;
+background: url(../images/images1/ga.png) no-repeat center center;
+width: 54px;
+height: 91px;
+margin-left: 930px;
+}
+
+.footer .footer-con a  .top1{
+   width: 88px;
+   height: 55px;
+   background:url(../images/images1/top.png);
+   position: fixed;
+   right: 10px;
+   top: 770px;
+}
+/* 这是footer区域结束 */

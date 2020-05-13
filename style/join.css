@@ -1,0 +1,147 @@
+
+/* 这是banner区域开始 */
+.banner {
+   
+    height: 515px;
+    background: #51c0e4 url(../images/images6/hrbanner.jpg) center 0;
+
+}
+/* 这是banner区域结束 */
+/* 这是content区域开始 */
+ .content {
+    width: 1006px;
+    height: 592px;
+    margin: 0 auto;
+
+}
+
+.content .top {
+    width: 1006px;
+    height: 90px;
+      padding: 45px 0;
+text-align: center;
+
+}
+.content .mid{
+    width: 1006px;
+    height: 261px;
+}
+.content .mid .mid-content1{
+    width: 335px;
+    height: 261px;
+    float: left;
+    background: #33b972;
+}
+ .content .mid .mid-content2{
+    width: 335px;
+    height: 261px;
+    float: left;
+    background:#f2a536 ;
+}
+.content .mid .mid-content3{
+    width: 335px;
+    height: 261px;
+    float: left;
+    background:#46b6f6 ;
+}
+.content .mid .mid-content1 .title{
+    width: 335px;
+    height: 80px;
+    background: #50cc8a url(../images/images6/zp1.png) no-repeat 10px center;
+}
+ .content .mid .mid-content2 .title{
+    width: 335px;
+    height: 80px;
+   
+    background: #fcb44b url(../images/images6/zp5.png) no-repeat 10px center;
+
+}
+ .content .mid .mid-content3 .title{
+    width: 335px;
+    height: 80px;
+   
+    background: #6ac9ff url(../images/images6/zp3.png) no-repeat 10px center;
+
+}
+ .content .mid .text{
+    font: 14px "microsoft yahei";
+    color: white;
+   
+}
+ .content .mid .mid-content1 .text{
+    width: 335px;
+    height: 154px;
+    padding: 12px;
+    box-sizing: border-box;
+   
+   
+}
+ .content .mid .mid-content1 .text ul{
+    margin-left: 10px;
+}
+.content .mid .mid-content1 .text ul li{
+     line-height: 30px;
+     height: 30px;
+}
+.content .mid .mid-content1 .text ul li a{
+    cursor: pointer;
+}
+ .content .mid .mid-content1 .text ul li a:hover{
+    color: #FEFC90;
+}
+ .content .mid .mid-content2 .text{
+    width: 335px;
+    height: 154px;
+    padding: 12px;
+    box-sizing: border-box;
+  
+}
+.content .mid .mid-content3 .text{
+    width: 335px;
+    height: 154px;
+    padding: 12px;
+    box-sizing: border-box;
+ 
+}
+.content .mid .mid-content1 .down{
+    height: 27.6px;
+    width: 335px;
+  
+}
+ .content .mid  .down a{
+    width: 44px;
+    float: right;
+    margin-right: 10px;
+    font: 12px "microsoft yahei";
+    color: white;
+    background: url(../images/images6/arrow_hover.png)no-repeat 39px center;
+}
+
+ .content .mid .mid-content2 .down{
+    height: 27.6px;
+    width: 335px;
+   
+}
+.content .mid .mid-content3 .down{
+    height: 27.6px;
+    width: 335px;
+   
+}
+.content .mid .mid-content3 .text ul{
+    list-style: none;
+    height: 89px;
+  width: 309px;
+  margin: 0 auto;
+}
+ .content .mid .mid-content3 .text ul li{
+    float: left;
+    width: 102px;
+    height: 30px;
+}
+ .content .mid .mid-content3 .text ul li a{
+    cursor: pointer;
+}
+ .content .mid .mid-content3 .text ul li a:hover{
+    color: #FEFC90;
+}
+ /* 这是content区域开始 */

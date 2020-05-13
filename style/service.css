@@ -1,0 +1,165 @@
+
+/* 这是banner区域开始 */
+.news .banner {
+    width: 100%;
+    height: 253px;
+    background: url(cimages5/faqbanner.jpg) center 0;
+    margin: 0 auto;
+}
+/* 这是banner区域结束 */
+/* 这是content区域开始 */
+.content {
+    width: 1006px;
+    height: 743px;
+    margin: 0 auto;
+
+}
+
+.content .top {
+    width: 1006px;
+    height: 52px;
+    border-bottom: 1px solid #c7d6e5;
+
+}
+
+.content .top .game-log {
+    display: block;
+    width: 33px;
+    height: 35px;
+    background: url(../images/images2/game.png) no-repeat;
+    float: left;
+    margin-top: 10px;
+
+}
+
+ .content .top h1 {
+    width: 150px;
+    background: url(../images/images3/location.png) no-repeat 1px -175px;
+    height: 52px;
+    font: 18px/52px "microsoft yahei";
+    float: left;
+    padding-left: 28px;
+
+}
+
+.content .top .home-log {
+    display: block;
+    float: left;
+    width: 33px;
+    height: 35px;
+    background: url(../images/images2/home.png) no-repeat;
+    margin-left: 728px;
+    margin-top: 10px;
+}
+
+ .content .top ul {
+    float: right;
+    height: 52px;
+    width: 150px;
+    font: 13px/52px 'microsoft yahei';
+    margin-right: -85px;
+
+}
+
+ .content .top ul li {
+    float: left;
+    width: 75px;
+    position: relative;
+    text-align: center;
+
+}
+
+ .content .top ul li .arrow-log {
+    display: block;
+    position: absolute;
+    top: 22px;
+    width: 4px;
+    height: 8px;
+
+    background: url(../images/images2/jt.png)no-repeat -3px -4px;
+}
+
+.content .mid .top-mid{
+    float: left;
+    width: 1006px;
+    height: 190px;
+    padding: 30px 0 26px 0;
+}
+.content .mid .top-mid ul li{
+float: left;
+width: 320px;
+height: 134px;
+margin-right: 23px;
+text-align: center;
+background: #f1f1f1;
+color: #444866;
+}
+.nomargin{
+margin: 0 !important;
+}
+.content .mid .top-mid ul li .phone{
+width: 38px;
+height: 68px;
+background: url(../images/images5/faqicon.png) no-repeat 1px 1px ;
+margin-left: 133px;
+}
+.content .mid .top-mid ul li:nth-child(2) .phone{
+width: 60px;
+height: 68px;
+background: url(../images/images5/faqicon.png) no-repeat 0px -198px ;
+margin-left: 124px;
+}
+.content .mid .top-mid ul li:nth-child(3) .phone{
+width: 38px;
+height: 68px;
+background: url(../images/images5/faqicon.png) no-repeat 0px -125px ;
+margin-left: 133px;
+}
+.content .mid p{
+font: 14px "microsoft yahei";
+color: #444866;
+}
+.content .mid .top-mid ul li h1{
+font: 24px "microsoft yahei";
+}
+.content .mid .down-mid{
+    float: left;
+    width: 1006px;
+    height: 404px;
+    padding-bottom: 40px;
+ 
+  }
+  .content .mid .down-mid p{
+      height: 62px;
+      line-height: 62px;
+  }
+  .content .mid .down-mid ul{
+      width: 1006px;
+      height: 302px;
+      border-right:1px solid #dbe1e7;
+      border-bottom:1px solid #dbe1e7;
+    
+  }
+  .content .mid .down-mid ul li{
+      width: 250px;
+      height: 151px;
+      border-left:1px solid #dbe1e7;
+      border-top:1px solid #dbe1e7;
+    float: left;
+  }
+  .content .mid .down-mid ul li:hover{
+      background-color: #f1f1f1;
+  }
+   .content .mid .down-mid ul li .poker{
+    width: 250px;
+    height: 70px;
+    margin-top: 20px;
+  }
+   .content .mid .down-mid ul li p{
+      text-align: center;
+  }
+  .content .mid .down-mid ul li .poker img{
+      margin-left: 90px;
+      margin-top: 15px;
+  }
+  /* 这是content区域结束 */

@@ -1,0 +1,143 @@
+/* 原子类清除盒子浮动 */
+.clearfix {
+    clear: both !important;
+}
+/* 原子类版心 */
+.inner {
+    width: 1000px !important;
+
+    margin: 0 auto;
+}
+   /* header区域开始 */
+     .header{
+         height: 79px;
+         width: 1000px;
+        margin: 0 auto;
+}
+     .header .bylog{
+         width: 203px;
+         height: 79px;
+         float: left;
+        position: relative;
+}
+     .header .bylog h1{
+         width: 203px;
+         height: 44px;
+         background:  url(../images/images7/xz.png) no-repeat;
+         text-indent: -999em;
+         position: absolute;
+         left: 0;
+         top: 15px;
+ }
+.header ul{
+     list-style: none;
+     float: right;
+     height: 79px;
+    
+   
+ }
+.header ul li{
+     float: left;
+     height: 79px;
+    color: #666;
+     
+ }
+ .header ul li a{
+     cursor: pointer;
+  padding: 0 30px;
+  height: 79px;
+  text-decoration: none;
+  
+  line-height: 79px;
+  display: block;
+ }
+ .active{
+     background: #11b273 !important;
+     font-weight: bold ;
+     color: #fff !important;
+    
+ }
+ .on{
+    background-color: #11b273 !important;
+    color: #fff  !important;
+}
+.block{
+    display: block !important;
+}
+ .header ul li a:hover{
+   color: #5DA2DF;
+ }
+  /* header区域结束 */
+    /* .content区域开始 */
+ .content{
+    width: 100%;
+    height:800px;
+    padding-bottom: 30px;
+    background:url(../images/images7/banner2.jpg) no-repeat center top;
+   
+}
+.content .inner-content{
+   position: relative;
+
+}
+.content .inner-content .nav{
+    position: absolute;
+    top: 216px;
+    left: 0;
+}
+.content .inner-content .nav ul{
+    width: 800px;
+    height: 60px;
+    
+    
+}
+.content .inner-content .nav ul li{
+   float: left;
+   width: 200px;
+   height: 60px;
+   background-color: #F4F4F4;
+   text-align: center;
+   font: 18px/60px "microsoft yahei";
+   color: black;
+   cursor: pointer;
+}
+.content .inner-content .nav ul li:nth-child(1){
+    border-top-left-radius: 10px;
+}
+.content .inner-content .nav ul li:nth-child(4){
+    border-top-right-radius: 10px;
+}
+.content .inner-content .content-text{
+position: absolute;
+top: 286px;
+height: 450px;
+/* overflow: hidden; */
+/* display: none; */
+
+
+}
+.content .inner-content .content-text ul{
+    background-color: blueviolet;
+}
+.content .inner-content .content-text ul li{
+     margin-bottom: 100px;
+     position: absolute;
+     display: none;
+}
+.content .inner-content .content-text p.title{
+  height: 60px;
+  font: 20px/60px '黑体';
+  color: black;
+}
+/* .content区域结束*/
+  /* footer区域开始 */
+ .footer{
+    height: 38px;
+    
+    font: 14px/38px "microsoft yahei";
+    color: #7a789b;
+    text-align: center;
+    background-color: #F6F7FB;
+
+}
+/* footer区域开始 */
